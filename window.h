@@ -6,8 +6,8 @@
 #include <stdbool.h>
 
 /* live cycle in modular */
-bool init(void);
-bool loadMedia(void);
-void xclose(void);
+void init(void);
+void loadMedia(void);
+void _close(void);
 
 #endif /* WINDOW_H */

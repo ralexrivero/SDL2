@@ -3,13 +3,13 @@
 int main(void)
 {
 	/* starts up SDL and creates window */
-	bool init(void);
+	void init(void);
 
 	/* loads media */
-	bool loadMedia(void);
+	void loadMedia(void);
 
 	/* frees media and shuts down SDL */
-	void xclose(void);
+	void _close(void);
 
 	return (0);
 }
