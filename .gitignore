@@ -1,6 +1,7 @@
-# SDL project
+# SDL project support folder and binaries
 cpp
 renderimg
+render
 
 # Prerequisites
 *.d
