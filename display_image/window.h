@@ -7,8 +7,8 @@
 #include <math.h>
 
 /* live cycle in modular */
-void init(void);
+/* void init(void);
 void loadMedia(void);
 void _close(void);
-
+ */
 #endif /* WINDOW_H */
