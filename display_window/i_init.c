@@ -24,8 +24,12 @@ int main(int argc, char *args[])
 	else
 	{
 		/* Create window */
-		window = SDL_CreateWindow("SDL Tutorial", SDL_WINDOWPOS_UNDEFINED,
+		/* windows title bar caption */
+		/* position of the window */
+		window = SDL_CreateWindow("SDL window", SDL_WINDOWPOS_UNDEFINED,
+		/* shown flag to ensure the windows is show */
 			SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
+		/* return NULL on error */
 		if (window == NULL)
 		{
 			printf("Window could not be created! SDL_Error: %s\n", SDL_GetError());
@@ -42,6 +46,7 @@ int main(int argc, char *args[])
 			SDL_UpdateWindowSurface(window);
 
 			/* Wait two seconds */
+			/* while delaying don't accept input from keyboard or mouse */
 			SDL_Delay(2000);
 		}
 	}
