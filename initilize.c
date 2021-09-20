@@ -1,6 +1,6 @@
 #include "window.h"
 
-int main(void)
+int _main(void)
 {
 	/* starts up SDL and creates window */
 	void init(void);
